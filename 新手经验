@@ -3,7 +3,7 @@
 const int VMAX = 1000;//最大顶点数
 const int INF = 10000000;//设 INF 为一个很大的数(代表无穷大)
 int Vnum, Anum, G[VMAX][VMAX], d[VMAX];//G 是代表邻接矩阵的数组， d 存的是顶点与集合 S 的最短距离 （集合 S 存的是已被访问的顶点）                                  
-bool visited[VMAX] = { false };
+bool visited[VMAX] = { false };//判断顶点是否被访问
 
 using namespace std;
 
